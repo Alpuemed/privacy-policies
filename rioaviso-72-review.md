@@ -1,0 +1,9 @@
+# Revisión y publicación de la política de privacidad de RioAviso
+
+Alejandro Puerta Medina, responsable de RioAviso (Alpuemed), revisó la propuesta y respondió «lo veo bien» el 21 de octubre de 2026 a la pregunta expresa de aprobación del texto, bases propuestas, procedimiento manual de solicitudes/correo y publicación. La revisión presentada correspondía a `991ed7ca34a7a3c34a39665510921697e7ce9d58` de este repositorio y al paquete `5b0937bbebdd75c1dce908adfccb22d6587f35dc` de `Alpuemed/rioaviso`.
+
+Las seis páginas se finalizan con vigencia del 21 de octubre de 2026, sin marcas de borrador, conservando navegación y términos localizados. El procedimiento aprobado incluye borrar manualmente mensajes de soporte dentro de 90 días de resolverlos, salvo obligaciones legales o controversias documentadas. No se configuró una automatización de Gmail ni se eliminó correo mediante el agente. La [revisión registrada](https://github.com/Alpuemed/rioaviso/blob/66cb4716b1f2b369ecd0456b3376b2c132103898/docs/privacy-72/revision-responsable.md) recoge el alcance y los límites. La issue permite revisión por el responsable; no se acredita revisión de asesoría externa.
+
+Siguen abiertos la evidencia contractual/de datos de terceros que no se haya verificado, los detalles de GMA 23.6.0/UMP 4.0.0, las respuestas finales de Seguridad de los datos y el contraste con la futura candidata. La audiencia guardada 16+ no verifica edad ni está aprobada aún por Google; no se ha implementado control de edad o consentimiento parental. No se afirma cumplimiento general ni aprobación de una versión de lanzamiento.
+
+La publicación de estas páginas fue autorizada sin esperar al AAB definitivo. La aceptación completa de la [issue #72](https://github.com/Alpuemed/rioaviso/issues/72) permanece separada de esta publicación.

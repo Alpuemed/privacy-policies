@@ -2,7 +2,7 @@
 
 Esta propuesta sustituye las seis páginas de privacidad de RioAviso por los borradores de revisión relacionados con la [issue #72](https://github.com/Alpuemed/rioaviso/issues/72) y el [PR #87](https://github.com/Alpuemed/rioaviso/pull/87). Las páginas conservan avisos visibles de borrador, `noindex, nofollow` y cuestiones pendientes de revisión jurídica. No están aprobadas para su publicación. No se deben integrar ni desplegar como avisos vigentes hasta completar la revisión jurídica humana.
 
-El responsable o su asesoría jurídica cualificada aún deben resolver estos puntos:
+El responsable de privacidad o su asesoría jurídica aún deben resolver estos puntos. La issue admite revisión por el responsable y no exige contratar asesoría. Las [decisiones concretas y el procedimiento propuesto](https://github.com/Alpuemed/rioaviso/blob/codex/issue-72-policy-approval/docs/privacy-72/revision-responsable.md) identifican qué se propone aprobar; el plazo de correo de soporte es una propuesta operativa nueva y no una regla implantada en Gmail.
 
 - Confirmar las finalidades y bases jurídicas del tratamiento, los roles de los responsables, los destinatarios, los contratos y las garantías para las transferencias.
 - Confirmar las regiones de tratamiento y los datos de conservación de los proveedores, así como la información aplicable a Google Mobile Ads SDK 23.6.0, que es la versión instalada.

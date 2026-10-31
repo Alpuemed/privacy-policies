@@ -39,7 +39,7 @@
 </nav>
 
 <h1>Privacy Policy for Chroma Blitz</h1>
-<p class="updated">Last updated: October 14, 2026</p>
+<p class="updated">Last updated: October 16, 2026</p>
 
 <p>
   Chroma Blitz is a reflex game developed by Alejandro Puerta (Alpuemed).
@@ -49,90 +49,31 @@
 </p>
 
 <h2>1. Data we collect</h2>
-<p>The age-category selector, the advertising controls described below and the statement that the app does not request an exact birth date apply to versions that include that selector. Earlier versions may not include these controls; their advertising and other services follow the included SDK behavior and Google settings. Update to a version with the selector when one is available to you.</p>
-
-
-
-<p><strong>Local ranking and age category (app storage)</strong></p>
+<p>The birth-year question and controls below apply to versions that include them. Earlier versions may behave differently; update the app when the new version is available.</p>
+<p><strong>Local data</strong></p>
 <ul>
-  <li>The level reached in each game and its date/time are stored in the
-    app's local storage. The age category (adult, minor or unknown) is also
-    stored on the device; the app does not ask for or store an exact date of
-    birth.</li>
-  <li>Android may back up or restore some app data depending on your device
-    and account settings. If you use Google Play Games, ranking and
-    achievements may also be sent to that service, as described below.</li>
+  <li>The level and date/time of each game, up to 50 top local scores, and audio/language settings are stored in app storage. The app asks for your birth year, not your full birth date. The year is stored only on this device in a separate preferences file excluded from Android cloud backup and device-to-device transfer. The app derives an adult, minor or unknown treatment when it opens; it does not send the year to us or Google.</li>
+  <li>Other app preferences and the local ranking may be backed up or restored by Android according to your device and account settings. An old age-category setting may remain after an update but is not used to authorize services.</li>
 </ul>
-
-<p><strong>Google Play Games Services (ranking and achievements)</strong></p>
+<p><strong>Google Play Games Services</strong></p>
 <ul>
-  <li>After you choose an age category, the app may automatically attempt to
-    sign in to Google Play Games. If sign-in succeeds, the app can send your
-    level to its leaderboard and achievements to Google Play Games, and show
-    your public Play Games profile name with your rank. You can cancel or not
-    complete sign-in and continue local play.</li>
-  <li>This service is managed by Google. See
-    <a href="https://support.google.com/android/answer/12461859?hl=en" target="_blank" rel="noopener">Google Play Games data information</a>
-    and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+  <li>After a valid birth year is saved, the app may automatically try to sign in to Google Play Games once per app session, for adults and minors. Without a saved valid year it does not attempt automatic sign-in. You can cancel sign-in and continue playing locally, or choose CONNECT manually. If signed in, scores and achievements may be sent to Google and your Play Games name and rank may appear in the ranking.</li>
+  <li>Google manages this service. See <a href="https://support.google.com/android/answer/12461859?hl=en" target="_blank" rel="noopener">Google Play Games data information</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
 </ul>
-
 <p><strong>Advertising (Google AdMob)</strong></p>
 <ul>
-  <li>For the adult profile, the app may request interstitial ads after a
-    game and may offer optional rewarded ads. Rewarded ads are shown only
-    after the player chooses that option; a reward is granted only when the
-    ad reports completion.</li>
-  <li>In versions that include the age category selector, ad requests and formats are blocked for the minor
-    and unknown profiles. This does not mean that no information is
-    processed by other services, including Play Games.</li>
-  <li>Google Mobile Ads and UMP may process information needed to provide,
-    manage, measure and protect advertising and consent choices. This may
-    include advertising or device identifiers, technical device information,
-    approximate location based on IP address, ad interactions and diagnostics;
-    the exact information depends on services and settings in use. See
-    <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure?hl=en" target="_blank" rel="noopener">Google Mobile Ads data disclosure</a>,
-    <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">how Google uses data when apps use Google's services</a>
-    and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
-  <li>For the adult profile, when the ad service is initialized, UMP checks whether consent
-    information must be updated and shows a form when required by the
-    configured message and applicable region (including the EEA, UK and
-    Switzerland). Ad requests are made only when the SDK reports that they
-    are allowed. Refusing personalized ads does not necessarily stop all
-    data processing or non-personalized ads.</li>
+  <li>The app may request interstitial ads after a game and offer optional rewarded ads. Rewarded ads appear only if you choose them; rewards are granted only after confirmed completion. Availability depends on consent, inventory and the current age treatment.</li>
+  <li>For a minor or unknown treatment, the app requests child-directed treatment, a G content rating and non-personalized ads. For an adult treatment, it refreshes UMP consent information at each app opening and after a change to adult, presents a form when required, and requests ads only after the SDK currently permits them. Failed consent updates block ads until a safe retry. Age treatment does not prevent Play Games or Google SDKs from processing data under their own policies.</li>
+  <li>Google Mobile Ads and UMP may process advertising or device identifiers, device information, approximate location inferred from IP, ad interactions and diagnostics depending on services and settings. See <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure?hl=en" target="_blank" rel="noopener">Google Mobile Ads data disclosure</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. Refusing personalized ads does not necessarily stop all processing or non-personalized ads.</li>
 </ul>
-
-<p>
-  Chroma Blitz has no account system of its own and does not ask for an exact
-  birth date. Google Play Games sign-in and other Google services are separate
-  services and may process information under Google's policies.
-</p>
-
 <h2>2. Children</h2>
-<p>
-  Chroma Blitz is intended for people aged 6 and older. The app asks users to
-  choose an adult (18+), minor (under 18) or unknown age category; it does not
-  ask for an exact age or birth date. The minor and unknown profiles use
-  protected ad settings and block ad requests and formats. Play Games may still
-  attempt sign-in after any age category is chosen, and may process data if
-  sign-in succeeds, as described above.
-</p>
-
-
+<p>Chroma Blitz is intended for people aged 6 and older. Birth year is used as a conservative local classification: the app treats a person as an adult from the calendar year in which they turn 19. A missing, invalid or unreadable year receives unknown protected treatment. This is not legal age verification. Minors can play, use the local ranking and attempt Play Games sign-in after saving a valid year. Ads for minor and unknown treatments use the protected settings described above.</p>
 <h2>3. Your choices</h2>
 <ul>
-  <li>You can cancel or decline the Google Play Games sign-in attempt and
-    continue playing; the local ranking remains available.</li>
-  <li>You can manage personalized ad permissions from your Google account's
-    ad settings
-    (<a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>).</li>
-  <li>When applicable, you can review and change your advertising
-    consent choices in Chroma Blitz under Settings → Privacy options.</li>
-  <li>The app stores the age category, local ranking and audio/language
-    preferences in its local app storage. Android may back up or restore some
-    data depending on your device and account settings. Uninstalling does not
-    itself delete information already sent to Google services; manage that
-    information through the relevant Google account or service.</li>
-  <li>The age category and settings remain in the app while its data exists. The local ranking keeps at most the 50 highest scores. You can clear the app data in Android settings or uninstall the app; Android backup or restore settings may affect what returns, and Google Play Games may repopulate scores after sign-in. Google handles retention and deletion of information sent to its services under its own policies and account controls; no remote deletion period is promised here. See <a href="https://support.google.com/googleplay/answer/9130646?hl=en" target="_blank" rel="noopener">Google Play's data deletion guidance</a>.</li>
+  <li>You can correct your birth year in Settings. Canceling the first question lets you play with unknown treatment and asks again at the next opening. Canceling a correction keeps the saved year.</li>
+  <li>You can cancel Google Play Games sign-in and continue locally. Google account settings control information already sent to its services.</li>
+  <li>When applicable, review or change advertising consent in Settings → Privacy options; you can also manage Google ad settings at <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>.</li>
+  <li>You can clear app data or uninstall to remove the locally stored birth year and other local data. The birth year is excluded from Android backup and transfer; other app data may be restored, and Play Games scores may return after sign-in. Google controls retention and deletion of data sent to its services under its policies. See <a href="https://support.google.com/googleplay/answer/9130646?hl=en" target="_blank" rel="noopener">Google Play's data deletion guidance</a>.</li>
 </ul>
 
 <h2>4. Changes to this policy</h2>
